@@ -1,10 +1,16 @@
 # Create components
 A small script to create react components as styled components written as a shell script and in nim.
 
-##Usage
+## Usage
+
 Usage of create-component.sh when in the same directory:
 ```bash
 ./create-component.sh -c componentName -f filetype -t target
+```
+
+Usage of create-component.sh when added to your PATH:
+```bash
+create-component -c componentName -f filetype -t target
 ```
 
 | Command | Description                 | Default          | Required |
