@@ -1,0 +1,169 @@
+Set,Number,Tier,Type,Name,Shields,HP/Power,Text,Unleash,Player Damage,Gravehold Damage,Miscellaneous,Avoidable Benefit,Minion Damage,Equivalent Aether,Avoidable Cost,Instances to Kill Minion,Player Turns to Kill,Persistent Triggers/Discard Probability,Persistent Unleash,Persistent Player Damage,Persistent Gravehold Damage,Persistent Miscellaneous,,Assume 2 player turns of overlap between minions (i.e. you start damage a minion two player turns after it enters play).,
+AE,204,1,Power,Agony Field,,2,"To Discard: Destroy a card in hand that costs 2$ or more.
+Power 2: Unleash.  Any player discards three cards and then draws one card.",1,0,0,3,4.7,0,10,5,,4,50%,,,,,,Assume 4 basic tier 3 cards are revealed.,
+AE,205,1,Minion,Bane Sire,,6,Persistent: Unleash.,2.7,0.0,0.0,0.0,0,6.7,11.0,0,5,7,2.75,1,,,,,,
+AE,206,1,Power,Bleed Static,,3,Power 3: The player with the most prepped spells suffers 2 damage for each of their prepped spells.,0,4,0,0,0,0,8,0,,,,,,,,,,
+AE,207,1,Power,Eye of Nothing,,2,"To Discard: Spend 6$.
+Power 2: Unleash twice.",2,0,0,0,1.4,0,8,6,,4,25%,,,,,,,
+AE,208,1,Minion,Haze Spewer,,5,"Persistent: Gravehold suffers damage equal to this minion's current life.  Then, this minion suffers 1 damage.",0.0,0.0,3.6,0.0,0,5.3,7.1,0,4,5,1.78,,,2,,,,
+AE,209,1,Attack,Skewer,,,Unleash.  Any player suffers 3 damage and draws a card.,1,3,0,0,0,0,10,0,,,,,,,,,,
+AE,210,1,Attack,Slaughter,,,Unleash.  Gravehold suffers 3 damage.,1,0,3,0,0,0,10,0,,,,,,,,,,
+AE,211,1,Power,Woven Sky,,2,"To Discard: Discard three cards.
+Power 2: Unleash.  Any player suffers 4 damage.",1,4,0,0,6.0,0,12,6,,4,85%,,,,,,,
+AE,P01,1,Attack,Menace,,,The players collectively discard two spells that are in hand or prepped.  The players collectively place two gems from their hands on top of their decks.,0,0,0,4,0,0,8,0,,,,,,,,AE,,
+AE,P05,1,Minion,Glyph Enigma,,7,"Persistent: Gravehod suffers 1 damage.  If the nemesis tier is 2 or higher, Gravehold suffers 2 additional damage.",0.0,0.0,6.4,0.0,0,8.0,12.8,0,6,8,3.21,,,2,,AE,,
+AE,212,2,Attack,Awaken,,,Unleash twice and Gravehold suffers 3 damage.  OR Place the most recently discarded minion in the nemesis discard pile back into play.,2,0,3,0,0,0,14,0,,,,,,,,,,
+AE,213,2,Minion,Cauterizer,3,0,"When damage is dealt to this minion, reduce that damage to 1.
+Persistent: Any player suffers damage equal to this minion's current life.",0.0,1.1,0.0,0.0,0,6.0,2.1,0,3,2,0.53,,2,,,,,
+AE,214,2,Attack,Dispel,,,Unleash twice.  The player with the most prepped spells discards their most expensive prepped spell.,2,0,0,2,0,0,12,0,,,,,,,,,Assume >3$ spell,
+AE,215,2,Minion,Needlemaw,,11,Persistent: Gravehold suffers 2 damage.,0.0,0.0,2.5,0.0,0,12.0,5.1,0,6,4,1.27,,,2,,,,
+AE,216,2,Attack,Lay Waste,,,Unleash twice.  Any player suffers 2 damage.,2,2,0,0,0,0,12,0,,,,,,,,,,
+AE,217,2,Power,Pulverizing Ray,,1,"Power 1: Gravehold suffers 18 damage.  The players may collectively discard up to 6 gems.  For each gem discarded this way, prevent 3 of that damage.",0,0,3,5,0,0,16,0,,,,,,,,,Assume 5 gems discarded.,
+AE,218,2,Minion,Venomite,,9,Persistent: The player with the lowest life suffers 2 damage.  OR Any player discards a prepped spell that costs 3$ or more.,0.0,0.9,0.0,0.9,0,10.0,3.5,0,5,3,0.88,,1,,1,,OR,
+AE,P02,2,Power,Gravity Splinter,,2,"To Discard: Spend 7$.
+Power 2: Unleash twice.  The player with the fewest opened breaches suffers 3 damage.",2,3,0,0,4.8,0,14,7,,4,25%,,,,,AE,,
+AE,219,3,Power,Doom Aegis,,1,"To Discard: Spend 7$.
+Power 1: The player with the most charges suffers 4 damage and loses all of their charges.",0,4,0,3,5.3,0,14,7,,2,50%,,,,,,Assume 3 charges discarded,
+AE,220,3,Attack,Gather Darkness,,,"Any player places their discard pile on top of their deck, shuffles it, and then destroys the top four cards of their deck.  Then, Unleash twice.",2,0,0,6,0,0,20,0,,,,,,,,,Assume 3 valuable cards,check
+AE,221,3,Minion,Jagged One,,14,Persistent: Unleash twice.,1.8,0.0,0.0,0.0,0,15.0,7.0,0,5,3,0.88,2,,,,,,
+AE,222,3,Attack,Obliterate,,,Unleash twice.  The player with the most opened breaches destroys four cards in hand or suffers 4 damage.,2,4,0,0,0,0,16,0,,,,,,,,,,
+AE,223,3,Power,Reality Rupture,,1,"To Discard: Destroy two prepped spells that each cost 3$ or more.
+Power 1: Unleash three times.",3,0,0,0,0.0,0,12,12,,2,10%,,,,,,,
+AE,224,3,Attack,Sunder,,,Gravehold suffers 4 damage and the player with the lowest life suffers 4 damage.  OR Shuffle all of the nemesis turn order cards into the turn order deck.,0,2,2,4,0,0,16,0,,,,,,,,,OR,
+AE,225,3,Attack,Topple,,,Unleash twice.  Gravehold suffers 4 damage.,2,0,4,0,0,0,16,0,,,,,,,,,,
+AE,P03,3,Power,World Purge,,2,"To Discard: Spend 9$.
+Power 2: Unleash three times.  OR Gravehold suffers 7 damage.",1.5,0,3.5,0,1.4,0,13,9,,4,10%,,,,,AE,OR,
+L,BS149,1,Attack,Blade Storm,,,Gravehold suffers 3 damage.  The player with the fewest opened breaches suffers 2 damage.,0,2,3,0,0,0,10,0,,,,,,,,AE,,
+L,BS150,1,Power,Hex of Vulnerability,,3,"To Discard: Spend 6$.
+Power 3: Place this card next to the player with the most life.  For the rest of the game, when that player suffers damage, they suffer 1 additional damage.",0,4,0,0,1.6,0,8,6,,6,25%,,,,,AE,,
+L,BS151,1,Minion,Throng Commander,3,1,"Persistent: If there are two or more other minions in play, Gravehold suffers 6 damage and discard this minion.  Otherwise, any player suffers 2 damage.",0.0,3.6,0.0,0.0,0,5.3,7.1,0,4,5,1.78,,2,,,AE,,
+L,END55,1,Attack,Ambush,,,Unleash.  Gravehold suffers 2 damage.  Any player suffers 1 damage.,1,1,2,0,0,0,10,0,,,,,,,,,,
+L,END56,1,Attack,Conduct,,,Unleash.  The player with the most charges suffers 2 damage and gains a charge.,1,2,0,-1,0,0,6,0,,,,,,,,,,
+L,END57,1,Power,Creeping Curse,,3,"To Discard: Spend 6$.
+Power 3: Unleash.  Any player suffers 2 damage.  The players collectively discad two cards in hand.",1,2,0,2,4.9,0,12,6,,6,25%,,,,,,,
+L,END58,1,Attack,Daze,,,"Any player suffers 2 damage and discards a card in hand.  If that card costs 0$, Gravehold suffers 2 damage.",0,2,1,1.5,0,0,9,0,,,,,,,,,OR,
+L,END59,1,Power,Endless Chasm,,2,"To Discard: Spend 6$.
+Power 2: Unleash twice.  Gravehold suffers 2 damage..",2,0,2,0,4.1,0,12,6,,4,25%,,,,,,,
+L,END60,1,Power,Aether Extract,,2,"Power 2: Unleash.  Any player discards two gems.  If both of those gems cost 0$, Unleash.",1.5,0,0,2.5,0,0,11,0,,,,,,,,,OR,
+L,END61,1,Minion,Ravenous Leviathan,,6,Peristent: Gravehold suffers 2 damage.,0.0,0.0,5.5,0.0,0,6.7,11.0,0,5,7,2.75,,,2,,,,
+L,END62,1,Minion,Spine Thresher,3,1,Persistent: Unleash.  Any player suffers 1 damage.,1.8,1.8,0.0,0.0,0,5.3,10.7,0,4,5,1.78,1,1,,,,,
+L,BS152,2,Attack,Divert,,,The player with the most expensive prepped spell casts that spell.  The damage that spell deals must be dealt to the player who cast it instead of to a minion or the nemesis.,0,4,0,2,0,0,12,0,,,,,,,,AE,Assume >3$ spell,check
+L,BS153,2,Power,Depreciate,,2,"To Discard: Spend 7$. 
+Power 2: Unleash twice.  The player with the most expensive card in hand destroys that card and then gains a card of the same type that costs less from any supply pile.  That player suffers 2 damage.",2,2,0,2,6.2,0,16,7,,4,25%,,,,,,,
+L,BS154,2,Minion,Armored Haze,4,1,"Persistent: Any player suffers 1 damage for each shield token this minion has.  Then, this minion suffers 1 damage.",0.0,1.8,0.0,0.0,0,10.0,3.5,0,5,3,0.88,,2,,,,,
+L,END63,2,Minion,Caustic Cocoon,,9,Persistent: Unleash.  Gravehold suffers 1 damage.,0.9,0.0,0.9,0.0,0,10.0,5.3,0,5,3,0.88,1,,1,,,,
+L,END64,2,Attack,Sap,,,Unleash twice.  Any player loses 2 charges.  OR Unleash twice.  Any player suffers 3 damage.,2,1.5,0,1,0,0,13,0,,,,,,,,,OR,
+L,END65,2,Power,Tremor,,2,"To Discard: Spend 7$.
+Power 2: Unleash twice.  Gravehold suffers 4 damage.",2,0,4,0,6.2,0,16,7,,4,25%,,,,,,,
+L,END66,2,Attack,Drain,,,"Unleash.  Gravehold suffers 2 damage.  The players collectively discard two prepped spells.  Then, if any player has a prepped spell that costs 4$ or more, Unleash.",1.5,0,2,3,0,0,16,0,,,,,,,,,OR,
+L,END67,2,Minion,Humming Hive,3,5,Persistent: Any player suffers 2 damage.,0.0,2.5,0.0,0.0,0,12.0,5.1,0,6,4,1.27,,2,,,,,
+L,END68,2,Attack,Hunted,,,Unleash twice.  The player with the lowest life suffers 1 damage.,2,1,0,0,0,0,10,0,,,,,,,,,,
+L,END69,2,Power,Tempting Offer,,3,"To Discard: Spend 7$.
+Power 3: Unleash twice.  The player with the lowest life suffers 3 damage.",2,3,0,0,5.8,0,14,7,,6,25%,,,,,,,
+L,BS155,3,Attack,Muster,,,Unleash twice.  Each minion in plays gains 5 life.,2,0,0,2,0,0,12,0,,,,,,,,,,
+L,BS156,3,Power,Breach Tunnel,,4,"Power 4: If each player has at least one closed breach, the nemesis overwhelms them and the players lose.",0,0,0,8,0,0,16,0,,,,,,,,AE,,
+L,BS157,3,Minion,Mailed Shade,1,8,"This minion can only be dealt damage by spells cast from a III breach.
+Persistent: Unleash twice.",2.5,0.0,0.0,0.0,0,12.0,10.2,0,4,4,1.27,2,,,,,,
+L,END70,3,Attack,Annihilate,,,"Unleash twice.  The player with the most expensive card in hand discards two cards in hand.  Then, for each card in that players hand that costs 2$ or more, Gravehold suffers 2 damage.",2,0,4,3,0,0,22,0,,,,,,,,,OR,
+L,END71,3,Minion,Facet Ogre,4,1,"Persistent: Gravehold suffers damage equal to the number of shield tokens this minion has.  If this minion has two or less shield tokens, it gains one shield token.",0.0,0.0,2.6,0.0,0,15.0,5.3,0,5,3,0.88,,,3,,,,
+L,END72,3,Power,Flash of Decay,,2,"Power 2:  Unleash twice.  The player with the most expensive prepped spell destroys it.  If that spell costs 4$ or less, or no spell was destroyed, Unleash.",2.5,0,0,2.5,0,0,15,0,,,,,,,,,OR,
+L,END73,3,Power,Gathering Storm,,2,"To Discard: Spend 8$.
+Power 2: Unleash twice.  If there are two nemesis turn order cards in the turn order discard pile, any player suffers 4 damage.  Otherwise, Gravehold suffers 4 damage..",2,2,2,0,5.5,0,16,8,,4,25%,,,,,,OR,
+L,END74,3,Minion,Maddening Spectre,2,7,Peristent: Unleash twice.,1.8,0.0,0.0,0.0,0,15.0,7.0,0,5,3,0.88,2,,,,,,
+L,END75,3,Attack,Scatter,,,Unleash twice.  Any player destroys their most expensive card in hand.,2,0,0,3,0,0,14,0,,,,,,,,,,
+L,END76,3,Attack,Suffocate,,,Unleash three times.  OR Gravehold suffers 3 damage and any player suffes 3 damage.,1.5,1.5,1.5,0,0,0,12,0,,,,,,,,,OR,
+NA,NA-1c-24,1,Minion,Drillbeak Wurm,,6,Persistent: Any player suffers 1 damage.  Gravehold suffers 1 damage.,0.0,2.7,2.7,0.0,0,6.7,11.0,0,5,7,2.75,,1,1,,,,
+NA,NA-1c-26,1,Minion,Carriode Colony,,4,"Immediately:  This minion suffers damage equal to the number of players in the game.
+Peristent: Unleash.",1.3,0.0,0.0,0.0,0,4.0,5.1,0,3,4,1.27,1,,,,,,
+NA,NA-1c-27,1,Power,Chaos Orb,,3,"To Discard: Spend 6$.
+Power 3: Unleash.  Gravehold suffers 4 damage..",1,0,4,0,4.9,0,12,6,,6,25%,,,,,,,
+NA,NA-1c-28,1,Attack,Disorient,,,"Unleash.  Any player suffers 1 damage and discards a card in hand.  If that card is a gem, Gravehold suffers 2 damage.",1,1,1,1,0,0,10,0,,,,,,,,,Assume 50/50 shot of discarding a gem for Gravehold damage vs early spell.,
+NA,NA-1c-29,1,Attack,Rend,,,Unleash.  Gravehold suffers 1 damage.  Any player suffers 2 damage.,1,2,1,0,0,0,10,0,,,,,,,,,,
+NA,NA-1c-30,1,Power,Unnerving Howl,,2,Power 2: Unleash.  Any player discards two gems in hand.,1,0,0,2,0,0,8,0,,,,,,,,,,Assume 33% chance tier 2 and 66% tier 3
+NA,NA-1c-31,1,Power,Ceaseless Darkness,,2,"To Discard: Spend 5$.
+Power 2: Unleash.  Any player suffers 3 damage.  Any player discards a card in hand.",1,3,0,1,6.6,0,12,5,,4,50%,,,,,,,
+NA,NA-1c-32,1,Attack,Aether Shock,,,Unleash.  The player with the most prepped spells suffers 1 damage and discards a prepped spell.,1,1,0,1,0,0,8,0,,,,,,,,,,
+NA,NA-END-135,1,Attack,Decimate,,,Unleash twice and any players gains 2 charges.  OR Gravehold suffers 4 damage.,1,0,2,-1,0,0,6,0,,,,,,,,,OR,
+NA,NA-END-136,1,Minion,Blind Enigma,,7,"Persistent: Any player suffers 1 damage.  If the nemesis tier is 2 or higher, that player suffers 2 additional damage.",0.0,6.4,0.0,0.0,0,8.0,12.8,0,6,8,3.21,,2,,,,,
+NA,NA-END-137,1,Power,Planar Collision,,2,"To Discard:  Discard two prepped spells.
+Power 2: Unleash twice.",2,0,0,0,3.8,0,8,4,,4,50%,,,,,,,
+NA,NA-END-138,1,Power,Spirit Snare,,3,"To Discard: Discard a card in hand that costs 5$ or more.
+Power 3: Unleash. Any player discards a spell in hand and suffers 2 damage.",1,2,0,0,1.9,0,8,4,,6,10%,,,,,,,
+NA,NA-1c-12,2,Attack,Dement,,,Unleash twice.  Any player suffers 1 damage and places their most expensive card in hand on top of their deck.,2,1,0,2,0,0,14,0,,,,,,,,,,
+NA,NA-1c-13,2,Attack,Decay,,,Unleash twice.  Any player or Gravehold suffers 3 damage.,2,1.5,1.5,0,0,0,14,0,,,,,,,,,OR,
+NA,NA-1c-15,2,Power,Culling Scythe,,2,"To Discard: Spend 7$.
+Power 2: Unleash.  The player with the lowest life suffers 4 damage..",1,4,0,0,3.4,0,12,7,,4,25%,,,,,,,
+NA,NA-1c-17,2,Attack,Fugue,,,Any player discards three cards in hand and suffers 2 damage.,0,2,0,3,0,0,10,0,,,,,,,,,,
+NA,NA-1c-18,2,Minion,Volcanic Zala,,10,Persistent: Gravehold suffers 3 damage.  OR Any player loses 2 charges.,0.0,0.0,1.3,0.9,0,10.0,4.4,0,5,3,0.88,,,1.5,1,,OR,
+NA,NA-1c-20,2,Minion,Portal Guardian,,8,Persistent: Unleash.  Any player suffers 1 damage.,0.9,0.9,0.0,0.0,0,8.0,5.3,0,4,3,0.88,1,1,,,,,
+NA,NA-1c-21,2,Power,Obliterating Meteor,,1,"To Discard: Discard four cards in hand.
+Power 1: Unleash twice.  Gravehold suffers 3 damage.",2,0,3,0,3.8,0,14,10,,2,75%,,,,,,,
+NA,NA-END-139,2,Attack,Mutilate,,,Unleash.  The players collectively discard two prepped spells.  Any player suffers 2 damage.,1,2,0,2,0,0,12,0,,,,,,,,,,
+NA,NA-END-140,2,Minion,Needlemaw,,11,Persistent: Gravehold suffers 2 damage.,0.0,0.0,2.5,0.0,0,12.0,5.1,0,6,4,1.27,,,2,,,,
+NA,NA-END-141,2,Power,Morbid Gyre,,1,"To Discard: Spend 7$.
+Power 1: Unleash twice.  The players collectively discard three cards in hand.",2,0,0,3,3.1,0,14,7,,2,25%,,,,,,,
+NA,NA-END-142,2,Power,Gravity Splinter,,2,"To Discard: Spend 7$.
+Power 2: Unleash twice.  The player with the fewest opened breaches suffers 3 damage.",2,3,0,0,4.8,0,14,7,,4,25%,,,,,,,
+NA,NA-1c-02,3,Attack,Eliminate,,,Unleash three times.  OR Gravehold suffers 6 damage.  OR Any player suffers 5 damage.,1,1.666666667,2,0,0,0,11.33333333,0,,,,,,,,,OR,
+NA,NA-1c-03,3,Power,Crushing Storm,,1,"To Discard: Destroy two opened breaches.
+Power 1: Unleash three times.
+",3,0,0,0,0.0,0,12,12,,2,25%,,,,,,,
+NA,NA-1c-04,3,Power,Gnashing Maw,,2,"Power 2: Unleash.  The player with the most expensive prepped spell destroys it.  If that spell costs 4$ or less, Unleash and any player suffers 3 damage.",2,3,0,3,0,0,20,0,,,,,,,,,,
+NA,NA-1c-06,3,Attack,Disperse,,,Unleash twice.  Any player suffers 2 damage and destroys their most expensive card in hand.,2,2,0,3,0,0,18,0,,,,,,,,,,
+NA,NA-1c-08,3,Attack,Gore,,,"Unleash twice.  The player with the most expensive card in hand discards three cards in hand.  Then, for each card in that player's hand that costs 2$ or more, that player suffers 2 damage.",2,2,0,5,0,0,22,0,,,,,,,,,Assume two good cards discarded and one card causes player damage.,
+NA,NA-1c-09,3,Power,Hex of Destruction,,2,"To Discard: Spend 8$.
+Power 2: Unleash twice.  Gravehold suffers 4 damage.  Any player destroys the top four cards of their deck.",2,0,4,6,13.7,0,28,8,,4,25%,,,,,,,
+NA,NA-1c-10,3,Minion,Eternal Watcher,,10,"Persistent: Any player suffers 3 damage.  If this minion has 6 or less life, it gains 3 life.",0.0,1.6,0.0,0.0,0,12.0,3.2,0,4,2,0.53,,3,,,,,
+NA,NA-END-143,3,Attack,Sunder,,,Gravehold suffers 4 damage and the player with the lowest life suffers 4 damage.  OR Shuffle all of the nemesis turn order cards into the turn order deck.,0,2,2,4,0,0,16,0,,,,,,,,,OR,
+NA,NA-END-144,3,Attack,Topple,,,Unleash twice.  Gravehold suffers 4 damage.,2,0,4,0,0,0,16,0,,,,,,,,,,
+NA,NA-END-145,3,Minion,Monstrosity of Omens,5,0,"When damage is dealt to this minion, reduce that damage to 1.
+Persistent: Gravehold suffers damage equal to this minion's current life.",0.0,0.0,2.6,0.0,0,15.0,5.3,0,5,3,0.88,,,3,,,,
+NA,NA-END-146,3,Power,Doom Aegis,,1,"To Discard: Spend 7$.
+Power 1: The player with the most charges suffers 4 damage and loses all of their charges.",0,4,0,3,5.3,0,14,7,,2,50%,,,,,,Assume 3 charges discarded,
+Unused,P04,1,Minion,Bane Sire,,6,Persistent: Unleash.,2.7,0.0,0.0,0.0,0,6.7,11.0,0,5,7,2.75,1,,,,WE,,
+WE,205,1,Attack,Afflict,,,Unleash.  Any player suffers 3 damage and may place a card in their discard pile into their hand.,1,3,0,0,0,0,10,0,,,,,,,,,,
+WE,206,1,Minion,Catacomb Drone,,5,Persistent: Unleash.  Gravehold suffers 1 damage.,1.8,0.0,1.8,0.0,0,5.3,10.7,0,4,5,1.78,1,,1,,,,
+WE,207,1,Attack,Encroach,,,"Unleash.  Reveal the top card of the turn order deck.  If a player turn order card was revealed, that player suffers 2 damage.  Otherwise, Gravehold suffers 3 damage.",1,2,0,0,0,0,8,0,,,,,,,,,,
+WE,208,1,Power,Heart of Nothing,,2,"To Discard: Discard four cards in hand.
+Power 2: Unleash twice.  OR Any player suffers 4 damage.",1,2,0,0,0.0,0,8,8,,4,75%,,,,,,OR,
+WE,209,1,Minion,Howling Spinners,,5,Persistent: Any player suffers 2 damage.,0.0,3.6,0.0,0.0,0,5.3,7.1,0,4,5,1.78,,2,,,,,
+WE,210,1,Power,Night Unending,,3,Power 3: Gravehold suffers 2 damage for each spell prepped by the player with the most prepped spells.,0,0,4,0,0,0,8,0,,,,,,,,,,
+WE,211,1,Attack,Nix,,,Unleash.  Any player suffers 1 damage and discards their most expensive card in hand.,1,1,0,3,0,0,12,0,,,,,,,,,,
+WE,212,1,Power,Planar Collision,,2,"To Discard:  Discard two prepped spells.
+Power 2: Unleash twice.",2,0,0,0,3.8,0,8,4,,4,50%,,,,,,,
+WE,213,1,Attack,Thrash,,,Unleash.  The players collectively discard two cards in hand.,1,0,0,2,0,0,8,0,,,,,,,,,,
+WE,O65,1,Minion,Labyrinth Wisp,,5,Persistent: Any player discards a prepped spell.  OR Any player loses 1 charge.,0.0,0.0,0.0,1.8,0,5.3,3.6,0,4,5,1.78,,,,1,WE,OR,
+WE,P12,1,Attack,Decimate,,,Unleash twice and any player gains 2 charges.  OR Gravehold suffers 4 damage.,1,0,2,-1,0,0,6,0,,,,,,,,WE,OR,
+WE,P13,1,Power,Spirit Cage,,3,"To Discard: Discard a card in hand that costs 5$ or more.
+Power 3: Unleash twice.  Any player discards a spell in hand.",2,0,0,1,0,0,10,0,,,,,,,,WE,,
+WE,214,2,Power,Aphotic Sun,,2,"To Discard: Spend 7$.
+Power 2: Unleash. The player with the most charges suffers 3 damage and loses all of their charges.",1,3,0,3,6.2,0,16,7,,4,25%,,,,,,Assume 3 charges discarded,
+WE,215,2,Power,Chaos Flail,,2,"To Discard: Spend 7$.
+Power 2: Unleash twice.  Any player places their discard pile on top of their deck and shuffles it.  Then, that player reveals the top two cards of their deck and destroys the most expensive card revealed.",2,0,0,3,4.8,0,14,7,,4,25%,,,,,,,
+WE,216,2,Minion,Mage Ender,,9,Persistent: The player with the most opened breaches suffers 2 damage.,0.0,1.8,0.0,0.0,0,10.0,3.5,0,5,3,0.88,,2,,,,,
+WE,217,2,Minion,Mangleroot,,12,Persistent: Gravehold suffers 3 damage.  This minon suffers 2 damage.,0.0,0.0,3.8,0.0,0,12.0,7.6,0,6,4,1.27,,,3,,,Assume 2 activations due to self-damage.,
+WE,218,2,Power,Morbid Gyre,,1,"To Discard: Spend 7$.
+Power 1: Unleash twice.  The players collectively discard three cards in hand.",2,0,0,3,3.1,0,14,7,,2,25%,,,,,,,
+WE,219,2,Attack,Mutilate,,,Unleash.  The players collectively discard two prepped spells.  Any player suffers 2 damage.,1,2,0,2,0,0,12,0,,,,,,,,,,
+WE,220,2,Minion,Null Scion,,11,PersistentL: Unleash.,1.3,0.0,0.0,0.0,0,12.0,5.1,0,6,4,1.27,1,,,,,,
+WE,221,2,Attack,Smite,,,Unleash twice.  Gravehold suffers 2 damage.,2,0,2,0,0,0,12,0,,,,,,,,,,
+WE,O66,2,Attack,Assail,,,Unleash twice.  The player with the most expensive prepped spell places that spell on top of their deck.,2,0,0,2,0,0,12,0,,,,,,,,,,
+WE,P14,2,Power,Baneful Crux,,2,"To Discard: Discard two cards in hand that each cost 4$ or more.
+Power 2: Unleash twice.  Gravehold suffers 3 damage.",2,0,3,0,2.1,0,14,8,,4,10%,,,,,AE,,
+WE,P15,2,Attack,Negate,,,Unleash twice.  Any player destroys their most expensive card in hand.  OR Unleash twice.  Gravehold suffers 3 damage.,2,0,1.5,1.5,0,0,14,0,,,,,,,,AE,OR,
+WE,222,3,Power,Apocalypse Ritual,,2,"To Discard: Spend 8$.
+Power 2: Gravehold suffers 5 damage for each nemesis turn order card in the turn order discard pile.",0,0,8,0,5.5,0,16,8,,4,25%,,,,,,,
+WE,223,3,Attack,Banish,,,Unleash twice.  The player with the most prepped spells suffers 1 damage for each of their prepped spells.,2,3,0,0,0,0,14,0,,,,,,,,,,
+WE,224,3,Power,Cataclysmic Fate,,1,"To Discard: Destroy a prepped spell that costs 5$ or more and a breach in which it was prepped.
+Power 1: The player with the lowest life suffers 4 damage.",2,4,0,3,4.4,0,22,12,,2,25%,,,,,,Assume the player is exhausted,
+WE,225,3,Minion,Monstrosity of Omens,5,0,"When damage is dealt to this minion, reduce that damage to 1.
+Persistent: Gravehold suffers damage equal to this minion's current life.",0.0,0.0,2.6,0.0,0,15.0,5.3,0,5,3,0.88,,,3,,,,
+WE,226,3,Attack,Engulf,,,Resolve the most recently discarded attack card in the nemesis discard pile.,2,1,1,2,0,0,16,0,,,,,,,,,"Tier 2: 4 attacks, 7, 2, 4, 6, 0
+Tier 3: 4 attacks, 8,6,3,11,0",
+WE,227,3,Attack,Quell,,,Gravehold Suffers 7 damage.  OR Unleash three times.,1.5,0,3.5,0,0,0,13,0,,,,,,,,,OR,
+WE,228,3,Attack,Throttle,,,Unleash twice.  Any player destorys their three most expensive cards in hand.,2,0,0,5,0,0,18,0,,,,,,,,,,
+WE,229,3,Power,Withering Beam,,2,Power 2: Unleash twice.  The players collectively destroy the two most expensive prepped spells.,2,0,0,6,0,0,20,0,,,,,,,,,,
+WE,O67,3,Power,Dire Abbatoir,,2,"To Discard: Spend 8$.
+Power 2: The player with the most life suffers damage equal to their current life.",2,4,0,3,9.6,0,22,8,,4,25%,,,,,,,
+WE,P16,3,Minion,Gallowskulk,,10,The player with the lowest life suffers 3 damage.,0.0,1.6,0.0,0.0,0,12.0,3.2,0,4,2,0.53,,3,,,AE,,
+WE,P17,3,Attack,Unmake,,,Unleash twice.  Any player destroys the top three cards of their deck and suffers 3 damage.,2,3,0,4,0,0,22,0,,,,,,,,AE,,
